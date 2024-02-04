@@ -1,0 +1,48 @@
+@media only screen and (max-width : 845px) {
+    .plan {
+        width: 88.5%;
+        height: unset;
+        padding: 3%;
+        font-size: 0.9rem;
+    }
+
+    .c1,
+    .c2,
+    .c3,
+    .c4 {
+        position: unset;
+        width: 88.5%;
+        height: unset;
+        margin: 0.3rem;
+    }
+
+    .c1 h2,
+    .c2 h2,
+    .c3 h2,
+    .c4 h2 {
+        margin-top: 0rem;
+        font-weight: 500;
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+    }
+
+    .c1 p,
+    .c2 p,
+    .c3 p,
+    .c4 p {
+        margin-top: 0.5rem;
+        font-weight: 340;
+        line-height: 1.3rem;
+    }
+
+    .c1 img,
+    .c2 img,
+    .c3 img,
+    .c4 img {
+        margin-top: 0.2rem;
+    }
+
+    .below button {
+        font-size: 1.4rem;
+    }
+}

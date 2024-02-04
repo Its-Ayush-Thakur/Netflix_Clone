@@ -1,0 +1,55 @@
+@media only screen and (max-width:615px) {
+
+    .main {
+        width: 90%;
+        padding-top: 15%;
+    }
+
+    .form {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .email {
+        width: 88vw;
+    }
+
+
+    .faq {
+        font-size: 0.8rem;
+    }
+
+    .faqmain ul li {
+        width: 87vw;
+        height: unset;
+        margin-top: 0.5rem;
+        font-size: 1.2rem;
+    }
+
+    .faqmain ul li img {
+        position: unset;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .below {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .below input {
+        width: 87vw;
+        height: 47px;
+    }
+
+    .below button {
+        width: 160px;
+        height: 47px;
+    }
+}

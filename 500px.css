@@ -1,0 +1,41 @@
+@media only screen and (max-width : 500px) {
+    .logo img {
+        width: 92px;
+        height: 28px;
+    }
+
+    .button {
+        width: 59px;
+        height: 27px;
+        margin: 1px;
+        font-weight: 600;
+        font-size: 0.9rem;
+    }
+
+    #select {
+        width: 72px;
+        font-size: 15px;
+        padding: 0px;
+        margin: 1px;
+        font-weight: 500;
+        height: 28px;
+    }
+
+    .nav {
+        margin: 5px 18px;
+    }
+
+    .plan h1 {
+        font-weight: 600;
+        font-size: 1.4rem;
+    }
+
+    .c1 img,
+    .c2 img,
+    .c3 img,
+    .c4 img {
+        margin-left: 85.5%;
+    }
+
+
+}

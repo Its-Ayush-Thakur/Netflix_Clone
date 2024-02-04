@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: linear-gradient(65deg, rgba(0, 0, 0, 0.9000) 30.00%, rgba(0, 0, 0, 0.8965) 35.83%, rgba(0, 0, 0, 0.8861) 41.67%, rgba(0, 0, 0, 0.8688) 47.50%, rgba(0, 0, 0, 0.8444) 53.33%, rgba(0, 0, 0, 0.8132) 59.17%, rgba(0, 0, 0, 0.7750) 65.00%, rgba(0, 0, 0, 0.7368) 70.83%, rgba(0, 0, 0, 0.7056) 76.67%, rgba(0, 0, 0, 0.6813) 82.50%, rgba(0, 0, 0, 0.6639) 88.33%, rgba(0, 0, 0, 0.6535) 94.17%, rgba(0, 0, 0, 0.6500) 100.0%), url(Netflix-background.webp);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.button {
+    background-color: rgb(229, 9, 20);
+    color: white;
+    width: 77px;
+    height: 32px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px;
+    border-radius: 4px;
+    border: none;
+}
+
+.form {
+    display: flex;
+    gap: 5px;
+
+}
+
+.sign .hov :hover {
+    background-color: rgb(193, 17, 25);
+    cursor: pointer;
+}
+
+.form span :hover {
+    background-color: rgb(193, 17, 25);
+    cursor: pointer;
+}
+
+#select {
+    background: transparent;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    width: 90px;
+    height: 31px;
+    border-radius: 2px;
+    margin: 5px;
+    padding: 2px 2px 2px 8px;
+}
+
+.nav {
+    height: 77px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+    list-style: none;
+    margin: 5px 42px;
+}
+
+.logo img {
+    width: 148px;
+    height: 40px;
+
+}
+
+.main {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 5rem;
+    padding-top: 9%;
+    width: 600px;
+}
+
+.h1 {
+    font-size: 3.3rem;
+    font-weight: 800;
+}
+
+.h3 {
+    margin: 10px 0px 3px 0px;
+}
+
+.h4 {
+    font-weight: 400;
+    margin: 23px 0px 3px 0px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.email {
+    width: 350px;
+    height: 44px;
+    font-size: 1.1rem;
+    padding-left: 10px;
+    color: white;
+    background-color: transparent;
+    border: 0.3px solid rgba(255, 255, 255, 0.7);
+    border-radius: 4px;
+}
+
+.Start {
+    width: 200px;
+    height: 44px;
+    border-radius: 4px;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.Start img {
+    color: white;
+}
+
+.form {
+    margin: 12px 0px 4px 0px;
+    align-items: center;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.plan {
+    display: flex;
+    width: 970px;
+    height: 120px;
+    border-radius: 10px;
+    flex-direction: column;
+    background: linear-gradient(93deg, #43172b, #230a25);
+    justify-content: center;
+    color: white;
+    padding-left: 45px;
+}
+
+.plan p {
+    margin-top: 6px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.h {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.h :hover {
+    transition: all 0.5s cubic-bezier(0.33, 0, 0, 1);
+    background: linear-gradient(93deg, #661d3e, #280a2b);
+
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.third {
+    background-color: black;
+    color: white;
+}
+
+.c1,
+.c2,
+.c3,
+.c4 {
+    width: 230px;
+    height: 338px;
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+    color: white;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    padding: 1rem;
+    position: relative;
+}
+
+.head h2 {
+    margin-left: calc((100% - 968px)/2);
+    font-weight: 600;
+    padding-top: 1.7rem;
+}
+
+.c1 h2,
+.c2 h2,
+.c3 h2,
+.c4 h2 {
+    margin-top: 0.5rem;
+    font-weight: 600;
+}
+
+.c1 p,
+.c2 p,
+.c3 p,
+.c4 p {
+    margin-top: 1rem;
+    font-weight: 350;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.c1 img,
+.c2 img,
+.c3 img,
+.c4 img {
+    margin-top: 1rem;
+    position: absolute;
+    bottom: 0.8rem;
+    right: 0.6rem;
+}
+
+.fourth {
+    background-color: black;
+
+}
+
+.faq {
+    color: white;
+    margin-left: calc((100% - 945px)/2);
+    padding-top: 58px;
+}
+
+.faqmain ul li {
+    width: 770px;
+    height: 80px;
+    background-color: rgb(45, 45, 45);
+    margin-top: 10px;
+    font-size: 1.4rem;
+    padding: 25px 0px 25px 21px;
+    position: relative;
+    list-style: none;
+}
+
+.faqmain ul li img {
+    position: absolute;
+    top: 24px;
+    right: 19px;
+}
+
+.faqmain ul :hover {
+    background-color: rgb(65, 65, 65);
+}
+
+.fifth {
+    background-color: black;
+    color: white;
+}
+
+.below {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.below input {
+    width: 730px;
+    height: 54px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 3px;
+    font-size: 1.1rem;
+    padding-left: 13px;
+    color: white;
+}
+
+.below button {
+    width: 200px;
+    height: 54px;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.below span :hover {
+    background-color: rgb(193, 17, 25);
+}
+
+.again {
+    display: flex;
+    flex-direction: column;
+    margin-left: calc((100% - 945px)/2);
+    gap: 18px;
+    padding-top: 47px;
+}
+
+.again p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.05rem;
+}
+
+.number {
+    background-color: black;
+    padding-top: 60px;
+    padding-left: calc((100% - 900px)/2);
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.05rem;
+}
+
+.number a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.sixth {
+    background-color: black;
+}
+
+.links a {
+    color: rgba(255, 255, 255, 0.7);
+    width: 220px;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+.links {
+    display: flex;
+    width: 980px;
+    flex-wrap: wrap;
+    margin-left: calc((100% - 900px)/2);
+    padding-top: 50px;
+}
+
+.last {
+    background-color: black;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.lang {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    padding-left: calc((100% - 900px)/2);
+}
+
+.lang #langs {
+    background: transparent;
+    color: white;
+    font-size: 17px;
+    width: 100px;
+    height: 32px;
+    border-radius: 2px;
+    padding: 2px 2px 3px 13px;
+}
+
+.lang .netflix {
+    color: rgba(255, 255, 255, 0.7);
+}
