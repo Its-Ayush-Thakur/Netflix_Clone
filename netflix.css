@@ -156,7 +156,6 @@
     height: 200px;
     justify-content: center;
     align-items: center;
-    background-color: black;
 }
 
 .h :hover {
@@ -171,8 +170,10 @@
     justify-content: center;
 }
 
-.third {
+.bg{
     background-color: black;
+}
+.third {
     color: white;
 }
 
@@ -223,11 +224,6 @@
     right: 0.6rem;
 }
 
-.fourth {
-    background-color: black;
-
-}
-
 .faq {
     color: white;
     margin-left: calc((100% - 945px)/2);
@@ -256,7 +252,6 @@
 }
 
 .fifth {
-    background-color: black;
     color: white;
 }
 
@@ -307,7 +302,6 @@
 }
 
 .number {
-    background-color: black;
     padding-top: 60px;
     padding-left: calc((100% - 900px)/2);
     color: rgba(255, 255, 255, 0.7);
@@ -318,9 +312,6 @@
     color: rgba(255, 255, 255, 0.7);
 }
 
-.sixth {
-    background-color: black;
-}
 
 .links a {
     color: rgba(255, 255, 255, 0.7);
@@ -338,7 +329,6 @@
 }
 
 .last {
-    background-color: black;
     color: white;
     padding-top: 60px;
     padding-bottom: 70px;
