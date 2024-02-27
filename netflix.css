@@ -6,7 +6,7 @@
 }
 
 .container {
-    background-image: linear-gradient(65deg, rgba(0, 0, 0, 0.9000) 30.00%, rgba(0, 0, 0, 0.8965) 35.83%, rgba(0, 0, 0, 0.8861) 41.67%, rgba(0, 0, 0, 0.8688) 47.50%, rgba(0, 0, 0, 0.8444) 53.33%, rgba(0, 0, 0, 0.8132) 59.17%, rgba(0, 0, 0, 0.7750) 65.00%, rgba(0, 0, 0, 0.7368) 70.83%, rgba(0, 0, 0, 0.7056) 76.67%, rgba(0, 0, 0, 0.6813) 82.50%, rgba(0, 0, 0, 0.6639) 88.33%, rgba(0, 0, 0, 0.6535) 94.17%, rgba(0, 0, 0, 0.6500) 100.0%), url(Netflix-background.webp);
+    /* background-image: linear-gradient(65deg, rgba(0, 0, 0, 0.9000) 30.00%, rgba(0, 0, 0, 0.8965) 35.83%, rgba(0, 0, 0, 0.8861) 41.67%, rgba(0, 0, 0, 0.8688) 47.50%, rgba(0, 0, 0, 0.8444) 53.33%, rgba(0, 0, 0, 0.8132) 59.17%, rgba(0, 0, 0, 0.7750) 65.00%, rgba(0, 0, 0, 0.7368) 70.83%, rgba(0, 0, 0, 0.7056) 76.67%, rgba(0, 0, 0, 0.6813) 82.50%, rgba(0, 0, 0, 0.6639) 88.33%, rgba(0, 0, 0, 0.6535) 94.17%, rgba(0, 0, 0, 0.6500) 100.0%), url(Netflix-background.webp); */
     background-position: center center;
     background-size: cover;
     display: flex;
